@@ -1,0 +1,30 @@
+
+# Python virtual environment
+ai-agent/.venv/
+
+# Python cache
+ai-agent/__pycache__/
+ai-agent/**/__pycache__/
+*.py[cod]
+
+# Java / Spring Boot
+backend/target/
+backend/build/
+
+# Node.js / React
+RepoPilot-frontend/node_modules/
+RepoPilot-frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
